@@ -14,7 +14,7 @@ public class NewTest {
 			driver.get("http://www.guru99.com/selenium-tutorial.html");  
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Free Selenium Tutorials")); 
-			System.out.println("Passed Test");
+			System.out.println("Passed Test Second Commit");
 		}	
 		@BeforeTest
 		public void beforeTest() {	
