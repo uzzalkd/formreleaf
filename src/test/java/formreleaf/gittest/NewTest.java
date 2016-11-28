@@ -14,12 +14,18 @@ public class NewTest {
 			driver.get("http://www.guru99.com/selenium-tutorial.html");  
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Free Selenium Tutorials")); 
-			System.out.println("Passed Test Second Commitv2");
+			System.out.println("Passed Test Second Commit version5");
+			System.out.println("Passed Test Second Commit version5");
+			System.out.println("Passed Test Second Commit version6");
+			System.out.println("Passed Test Second Commit version7");
 		}	
+		
 		@BeforeTest
 		public void beforeTest() {	
 		    driver = new FirefoxDriver();  
-		}		
+		}	
+		
+		
 		@AfterTest
 		public void afterTest() {
 			driver.quit();			
