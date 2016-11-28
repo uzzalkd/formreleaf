@@ -13,11 +13,7 @@ public class NewTest {
 		public void testEasy() {	
 			driver.get("http://www.guru99.com/selenium-tutorial.html");  
 			String title = driver.getTitle();				 
-			Assert.assertTrue(title.contains("Free Selenium Tutorials")); 
-			System.out.println("Passed Test Second Commit version5");
-			System.out.println("Passed Test Second Commit version5");
-			System.out.println("Passed Test Second Commit version6");
-			System.out.println("Passed Test Second Commit version7");
+			Assert.assertTrue(title.contains("Free Selenium Tutorials"));			
 		}	
 		
 		@BeforeTest
