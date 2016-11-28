@@ -13,7 +13,8 @@ public class NewTest {
 		public void testEasy() {	
 			driver.get("http://www.guru99.com/selenium-tutorial.html");  
 			String title = driver.getTitle();				 
-			Assert.assertTrue(title.contains("Free Selenium Tutorials"));			
+			Assert.assertTrue(title.contains("Free Selenium Tutorials"));
+			System.out.println( "Hello World! Pull Request" );
 		}	
 		
 		@BeforeTest
